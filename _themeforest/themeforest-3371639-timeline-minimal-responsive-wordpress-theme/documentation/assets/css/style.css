@@ -1,0 +1,186 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+a, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+input[type="text"], input[type="password"], textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body
+{
+  line-height: 1;
+}
+
+ol, ul
+{
+  list-style: none;
+}
+
+:focus, :active
+{
+  outline: 0;
+}
+
+input, select
+{
+  vertical-align: middle;
+}
+
+select
+{
+  margin: 0;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.clearfix:after
+{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+body, input, select, textarea, button
+{
+	font: 13px "Helvetica Neue", Helvetica, sans-serif;
+	color: #333;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+a
+{
+	color: #008fd9;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+p
+{
+	line-height: 22px;
+	margin-top: 10px;
+}
+
+p.subHeading
+{
+	color: #999;
+	margin: 0;
+	text-align: center;
+}
+
+p.heading
+{
+	margin-top: 20px;
+}
+
+h1
+{
+	font-size: 32px;
+	line-height: 36px;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h2
+{
+	clear: both;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -1px;
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px dashed #ddd;
+}
+
+h2 a
+{
+	float: right;
+	font-size: 13px;
+	line-height: 36px;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+h3
+{
+	clear: both;
+	font-size: 18px;
+	line-height: 23px;
+	margin-top: 30px;
+}
+
+ul
+{
+	list-style-type: decimal;
+	padding-left: 30px;
+	margin-top: 15px;
+}
+
+ul li
+{
+	line-height: 22px;
+}
+
+ul li ul
+{
+	margin-bottom: 15px;
+}
+
+pre
+{
+	color: #999;
+	margin-top: 25px;
+}
+
+.siteWrapper
+{
+	width: 740px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.siteWrapper a.logo
+{
+	display: block;
+	height: 60px;
+	background: #fff url(../img/logo.png) center center no-repeat;
+}
+
+.footer
+{
+	margin-top: 30px;
+	padding: 20px 0 40px 0;
+	border-top: 1px dashed #ddd;
+}

@@ -1,0 +1,310 @@
+/*
+	STOP
+	-------------------------------
+	Serifly Theme Options Panel 1.1
+	Updated on October 27th, 2012
+	http://serifly.com
+	
+	Copyright (c) 2012 Serifly.com
+*/
+
+.stopHeader
+{
+	overflow: hidden;
+	width: 786px;
+	height: 80px;
+	padding: 0;
+	margin: 20px 0 0 0;
+	background: #333;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.stopHeader .title 
+{
+	float: left;
+	margin: 26px;
+}
+
+.stopHeader .title strong
+{
+	font-size: 24px;
+	color: #fff;
+}
+
+.stopHeader .title span
+{
+	color: #999;
+}
+
+.stopHeader .title span a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.stopHeader .logo
+{
+	float: right;
+	width: 22px;
+	height: 28px;
+	margin: 26px;
+	background: transparent url(../img/admin.png) center center no-repeat;
+}
+
+.stopHeader .import,
+.stopHeader .export
+{
+	position: relative;
+	overflow: hidden;
+	float: right;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	margin: 26px 0 0 6px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	background: #222;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.stopHeader .import:hover,
+.stopHeader .export:hover
+{
+	background-color: #444;
+}
+
+.stopHeader .import input[type="file"]
+{
+	position: absolute;
+	margin-left: -20px;
+	font-size: 48px;
+	cursor: pointer;
+	
+	opacity: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+
+.stopWrap
+{
+	overflow: hidden;
+	position: relative;
+	width: 784px;
+	min-height: 400px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	border-top: 0;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-box-shadow: 0 2px 6px #eee;
+	-moz-box-shadow: 0 2px 6px #eee;
+	box-shadow: 0 2px 6px #eee;		
+}
+
+.stopWrap a
+{
+	text-decoration: none;
+}
+
+.stopNavigation
+{
+	position: absolute;
+	width: 200px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f3f3f3;
+	border-right: 1px solid #ccc;		
+}
+
+.stopNavigation li
+{
+	display: block;
+	width: 180px;
+	height: 34px;
+	line-height: 34px;
+	margin: 0;
+	padding: 0 10px;
+	border-top: 1px solid #f9f9f9;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.stopNavigation li a
+{
+	display: block;
+	height: 34px;
+}
+
+.stopNavigation li:hover
+{
+	background: #f9f9f9;			
+}
+
+.stopNavigation li.active
+{
+	background: #fff;
+	border-right: 1px solid #fff;
+}
+
+.stopOptions
+{
+	overflow: hidden;
+	float: right;
+	width: 584px;
+	padding: 0;
+	margin: 0;
+}
+
+.stopOptions .updated,
+.stopOptions .error
+{
+	padding: 0;
+	margin: 20px 20px 0 20px;
+	text-align: center;
+}
+
+.stopOptions form .element
+{
+	overflow: hidden;
+	padding: 20px;
+	margin: 0;
+	border-bottom: 1px dashed #dfdfdf;
+}
+
+.stopOptions form .element input[type="text"],
+.stopOptions form .element textarea,
+.stopOptions form .element select
+{
+	height: auto;
+	line-height: auto;
+	padding: 9px;
+	width: 360px;
+}
+
+.stopOptions form .element input[type="checkbox"]
+{
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.stopOptions form .element input[type="button"]
+{
+	margin: 4px 0 0 0;
+}
+
+.stopOptions form .element label
+{
+	float: left;
+	width: 180px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.stopOptions form .element .preview_image
+{
+	overflow: hidden;
+	float: right;
+	width: 352px;
+	height: 72px;
+	margin: 0 0 4px 0;
+	padding: 3px;
+	background: #fff url(../img/transparency.png) left top repeat; 
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.stopOptions form .element .input
+{
+	float: right;
+	width: 360px;
+}
+
+.stopOptions form .element .input span
+{
+	display: block;
+	color: #999;
+	margin-top: 4px;
+}
+
+.stopOptions form .element .input span.checkbox
+{
+	display: inline;
+	margin-left: 6px;
+	line-height: 32px;
+}
+
+.stopOptions form .element .colorpickerWrap
+{
+	display: none;
+	position: absolute;
+	right: 19px;
+	padding: 9px;
+	margin-top: -12px;
+	background: #fff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stopOptions .submit
+{
+	float: right;
+	text-align: right;
+}
+
+.stopOptions .reset
+{
+	float: left;
+}
+
+.stopOptions .submit,
+.stopOptions .reset
+{
+	width: 50%;
+	padding: 0;
+	margin: -1px 0 0 0;
+	background-image: -ms-linear-gradient(top, #f3f3f3 0%, #fff 100%);
+	background-image: -moz-linear-gradient(top, #f3f3f3 0%, #fff 100%);
+	background-image: -o-linear-gradient(top, #f3f3f3 0%, #fff 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f3f3f3), color-stop(1, #ffff));
+	background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #fff 100%);
+	background-image: linear-gradient(to bottom, #f3f3f3 0%, #fff 100%);
+	border-top: 1px solid #dfdfdf;
+}
+
+.stopOptions .submit input,
+.stopOptions .reset input
+{
+	margin: 20px;	
+}
+
+.stopFooter
+{
+	color: #999;
+}
+
+.stopFooter a
+{
+	text-decoration: none;
+}

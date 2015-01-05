@@ -1,0 +1,14 @@
+.mceContentBody p,
+.mceContentBody h1,
+.mceContentBody h2,
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5
+{
+	margin: 4px 0;
+}
+
+.mceContentBody p
+{
+	line-height: 22px;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Timeline - Minimal Responsive Wordpress Theme - Documentation</title>
+		<meta charset="utf-8" />
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="siteWrapper">
+			<a class="logo" href="http://serifly.com"></a>
+			<h1>"Timeline - Minimal Responsive Wordpress Theme"</h1>
+			<p class="subHeading">Version 1.3 &middot; Updated on January 22nd, 2014 by <a href="http://serifly.com">Serifly</a></p>
+			<p class="heading">Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please don't hesitate to send me a message via the user page <a href="http://themeforest.net/user/Serifly">contact form</a>.</p>
+			<h2 id="table-of-contents">Table of Contents</h2>
+			<ul>
+				<li><a href="#introduction">Introduction</a></li>
+				<li><a href="#changelog">Changelog</a></li>
+				<li><a href="#installation">Installation</a></li>
+				<li><a href="#setup">Setup</a></li>
+					<ul style="margin: 10px 0;">
+						<li><a href="#import">Import</a></li>
+						<li><a href="#timeline">Timeline</a></li>
+						<li><a href="#regular-page">Regular Page</a></li>
+						<li><a href="#full-width-page">Full Width Page</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact-page">Contact Page</a></li>
+					</ul>
+				<li><a href="#theme-options">Theme Options</a></li>
+				<li><a href="#sidebars">Sidebars</a></li>
+				<li><a href="#menus">Menus</a></li>
+				<li><a href="#widgets">Widgets</a></li>
+				<li><a href="#shortcodes">Shortcodes</a></li>
+				<li><a href="#credits">Credits</a></li>
+			</ul>
+			<h2 id="introduction"><a href="#table-of-contents">Back to Top &uarr;</a>Introduction</h2>
+			<p class="heading">This theme is using the newest HTML5 and CSS3 standards and will therefore not work with Internet Explorer 6 and 7. Everything up from Internet Explorer 8 and all major browsers like Firefox, Safari, Chrome and Opera have been tested successfully. It is however possible that minor glitches will appear in older versions of these browsers. The functionality however should always be given. Please also keep in mind that a few visual effects were made in CSS3 so the viewing experience might differ in older browsers. This theme will furthermore only work with Wordpress 3.4 or higher.</p>
+			<h2 id="changelog"><a href="#table-of-contents">Back to Top &uarr;</a>Changelog</h2>
+			<p class="heading">Please be extra careful when updating to a newer version of this theme and only do so if it includes something you require.</p>
+			<h3>Version 1.3</h3>
+			<ul>
+				<li>
+					<strong>Fixes</strong>
+					<ul>
+						<li>Twitter widget API (now authenticated)</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>Version 1.2</h3>
+			<ul>
+				<li>
+					<strong>Fixes</strong>
+					<ul>
+						<li>Timeline sidebar navigation not working without image slider</li>
+						<li>Captcha image not being loaded</li>
+						<li>Extremely rare image selection error</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Added</strong>
+					<ul>
+						<li>Theme option to display the timeline in full width by default</li>
+						<li>Theme option to set an alternative page title - useful for plugins</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>Version 1.1</h3>
+			<ul>
+				<li>
+					<strong>Fixes</strong>
+					<ul>
+						<li>Bad performance in Google Chrome when scrolling the timeline</li>
+					</ul>
+				</li>
+			</ul>
+			<h2 id="installation"><a href="#table-of-contents">Back to Top &uarr;</a>Installation</h2>
+			<p class="heading">In order to install this theme you must have a working version of Wordpress 3.4 already installed. For information on how to install Wordpress please read the codex <a href="http://codex.wordpress.org/Installing_WordPress">http://codex.wordpress.org/Installing_WordPress</a>.</p>
+			<h3>FTP</h3>
+			<p>Use a FTP program of your choice to upload the non-zipped folder "timeline" from the theme package to "/wp-content/themes/". After that just navigate to "Appearance &rarr; Themes" and activate the theme.</p>
+			<h3>Wordpress</h3>
+			<p>Navigate to "Appearance &rarr; Themes &rarr; Install Theme &rarr; Upload", click on "Choose File" and choose the file "timeline.zip" from the theme package. If the upload and installation was successful you will be able to activate the theme instantly.</p>
+			<h2 id="setup"><a href="#table-of-contents">Back to Top &uarr;</a>Setup</h2>
+			<p class="heading">Please note that the theme will look quite empty with the placeholder content provided by Wordpress. Don't worry though, as long as you follow this guide it will look exactly as in the theme preview.</p>
+			<h3 id="import">Import</h3>
+			<p>If you rather want to skip the manual setup you can automatically import almost all content as shown in the theme preview. You are only required to change a few details after the import is finished.</p>
+			<p>First navigate to "Appearance &rarr; Theme Options" and click on "Import" in the upper right corner next to the logo. Select the file "serifly_timeline_theme_options_export.1352203015.txt" from the import folder of the theme package and confirm. This will set some small things in the theme options to get you started.</p>
+			<p>The next step is to install the WordPress importer. Navigate to "Tools &rarr; Import", click "WordPress" and install the plugin. As soon as the installation is finished you can select an import file to upload. Select the file "timeline.wordpress.2012-11-06.xml" located in "import" in your theme package. Don't import the user but instead assign all posts to an existing one and check the box to download all attachments. This process can now take some time depending on your connection as all timeline images will be retrieved from my server.</p>
+			<p>Now that everything has been imported, navigate to "Appearance &rarr; Menus" and select the menu "Header" as your "Primary Menu". If you skip this step the header layout will break on your site.</p>
+			<p>For the last step go to "Settings &rarr; Reading", check "A static page" under "Front page displays" and choose the page "Work" as your front page and "Blog" as your posts page.</p>
+			<p>The only part you will have to set up manually now are the sidebars and its widgets. Unfortunately they cannot be imported with the default WordPress importer.</p>
+			<h3 id="timeline">Timeline</h3>
+			<p>Navigate to "Pages &rarr; Add New", insert a title and choose the template "Timeline" from "Page Attributes". Don't put any content on this page and leave the hero unit empty as well. To set up this page as your homepage, navigate to "Settings → Reading" and select the page you just created under "Front page displays" as your static front page.</p>
+			<p>Now go to "Timeline &rarr; Add Item" to create your first timeline post. Creating a timeline post basically works exactly like creating a normal blog post. Enter a title and some content in the editor and insert a more tag, if you want to display the "View Project" link. Everything underneath the more tag will only be shown on the item page and not on the timeline page. Now scroll down and upload the images you want to show with the created item. Click on "Upload Image &middot; 1", upload your image, select "Full Size" and click "Insert into Post". You will see your picture being displayed in the little preview area on the left. Now if you want you can enter a YouTube or Vimeo link into "Optional Link" to embed it when a user clicks on the image. By default the full size of the image will be shown on click.</p>
+			<p>After you have selected the images you want to show you can add a few tags to your item. Please note that only one tag can be used if you set your timeline "Navigation Filter" to "Tags". This setting can be changed in the theme options.</p>
+			<p>To bring your items in order, all you have to do is changed the "Publish Date" in the box labeled "Publish".</p>
+			<h3 id="regular-page">Regular Page</h3>
+			<p>Add a new page and this time choose the template "Default Template" from "Page Attributes". This template will display the sidebar "Page Sidebar" which can be set up in the widget area of your Wordpress installation.</p>
+			<h3 id="full-width-page">Full Width Page</h3>
+			<p>Again navigate to "Pages → Add New", insert a title and choose the template "Full Width" from "Page Attributes". This template will never display a sidebar no matter if you set it up or not.</p>
+			<h3 id="blog">Blog</h3>
+			<p>Navigate to "Pages &rarr; Add New", enter a title and choose the "Default Template" from the "Page Attributes". Navigate to "Settings → Reading" and select the page you just created under "Front page displays" as a static page to show your posts.</p>
+			<p>If you want to customize the sidebar used for the blog, navigate to "Appearance &rarr; Widgets" and set up the "Main Sidebar".</p>
+			<h3 id="contact-page">Contact Page</h3>
+			<p>To create a contact page navigate to "Pages &rarr; Add New", enter a title and choose "Contact" from the "Page Attributes". You can change the position of the contact form, the sending confirmation message, an alternative email address and the captcha in the theme options under "General Options".</p>
+			<h2 id="theme-options"><a href="#table-of-contents">Back to Top &uarr;</a>Theme Options</h2>
+			<p class="heading">Using the theme options panel you can easily customize your site. It includes basic functions like adding a logo, changing the footer text and some color modifications as well as some detailed options.</p>
+			<h3>General Settings</h3>
+			<p>The "General" section lets you edit and modify your favicon, the navigation label shown on mobile devices, different options for the contact form, a custom feed and your tracking code or any other Javascript you want to attach to the site.</p>
+			<h3>Header Options</h3>
+			<p>In the "Header" section you can upload a logo or enter a text logo and disable the blog search field and if required replace it with a little link including one of four icons.</p>
+			<h3>Footer Options</h3>
+			<p>The "Footer" options allow you to enter your own line instead of using the default copyright notice and links.</p>
+			<h3>Timeline Options</h3>
+			<p>The "Timeline" section allows you to change your sites timeline to the tag filtered view. This means that all timeline items won't be shown ordered by date but instead by the tags you are using. You can also enter your own more tag label and add content to the small info box shown in the lower right corner.</p>
+			<h3>Blog Options</h3>
+			<p>In the "Blog" options you can set what should be displayed in the header of every post, shorten the name of the month to three letters and enter your own more tag label.</p>
+			<h3>Styling Options</h3>
+			<p>The "Styling" section lets you edit the color of all links displayed on the page, the background color of your header and some other minor changes like displaying the footer in grey instead of white.</p>
+			<h3>Social Networks</h3>
+			<p>In "Social Networks" you can enter the urls to your profiles for some very popular services. Those links will then be shown in the header with a small icon. If you are missing a service you are free to request it and I will try to include it in the next update.</p>
+			<h2 id="sidebars"><a href="#table-of-contents">Back to Top &uarr;</a>Sidebars</h2>
+			<p class="heading">You can set up four different sidebars for this theme, one is the sidebar for the blog content, one for content pages, one only for the contact page and one sidebar is used for the large footer. Navigate to "Appearance &rarr; Widgets" to set up your sidebars.</p>
+			<h2 id="menus"><a href="#table-of-contents">Back to Top &uarr;</a>Menus</h2>
+			<p class="heading">When using this theme you should always create custom menus for each purpose. Navigate to "Appearance → Menus" and create a new menu. Add the pages you want for the main navigation and select it as your "Primary Menu".</p>
+			<h2 id="widgets"><a href="#table-of-contents">Back to Top &uarr;</a>Widgets</h2>
+			<p class="heading">The theme supports the basic Wordpress widgets and includes two new ones. The "Latest Timeline Item" widget will display the last item you have added to your timeline. Please note that it has to contain at least one image. The "Twitter Feed" widget will display the number of tweets you set from any given profile.</p>
+			<h3>About Widget</h3>
+			<p>Create a new text widget for the sidebar "Large Footer" and paste the following into the text box. Please do not check "Automatically add paragraphs". You can use the icon classes "iconEmail", "iconPhone", "iconChat", "iconUser" and "iconLocation".</p>
+			<pre>&lt;p&gt;Your description goes here.&lt;/p&gt;
+[separator_line]
+[one_half]
+&lt;p class="iconLocation"&gt;
+	765 Doe Boulevard,&lt;br /&gt;
+	Rochester, NY 14621&lt;br /&gt;
+	United States
+&lt;/p&gt;
+[/one_half]
+[one_half_last]
+&lt;p&gt;
+	&lt;span class="iconPhone"&gt;+1.234.567.8901&lt;/span&gt;&lt;br /&gt;
+	&lt;a class="iconEmail" href="mailto:hello@example.com"&gt;hello@example.com&lt;/a&gt;&lt;br /&gt;
+	&lt;a class="iconChat" href="http://serifly.com"&gt;Chat with us&lt;/a&gt;
+&lt;/p&gt;
+[/one_half_last]
+</pre>
+			<h2 id="shortcodes"><a href="#table-of-contents">Back to Top &uarr;</a>Shortcodes</h2>
+			<p class="heading">This theme has a variety of custom shortcodes to make the process of creating the pages easier. If you are not sure how to use those shortcodes you can import the demo content and have a look at the page "Shortcode".</p>
+			<h3>Shortcode Browser</h3>
+			<p>Every post, timeline and page content editor will display a little box on the upper right corner with all available shortcodes. Just focus the visual or HTML editor, click on the shortcode you want to use and it will be pasted automatically to the position of your text cursor.</p>
+			<h3>Break</h3>
+			<p>If required at some point of your content you can insert a break instead of entering a new line. This is especially helpful in text widgets.</p>
+			<pre>[break]</pre>
+			<h3>Separator</h3>
+			<p>The separator is a horizontal space which equals a four line breaks spacing.</p>
+			<pre>[separator]</pre>
+			<h3>Separator Line</h3>
+			<p>The separator line is a horizontal space which equals a eight line breaks spacing and displays a little border.</p>
+			<pre>[separator_line]</pre>
+			<h3>Lists</h3>
+			<p>Due to the functions of this theme you have to wrap a shortcode around every list you create.</p>
+			<pre>[list]
+	Visually created list
+[/list]</pre>
+			<p>or for widgets</p>
+			<pre>[list]
+	&lt;ul&gt;
+		&lt;li&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+[/list]</pre>
+			<p>You can choose from three different types of lists, the default look showing a small dot, a style with ticks and a style with crosses.</p>
+			<pre>[list][/list]
+[tick_list][/tick_list]
+[cross_list][/cross_list]
+			</pre>
+			<h3>Testimonial</h3>
+			<p>This shortcode shows a little testimonial bubble with the customers name and information.</p>
+			<pre>[testimonial author="John Doe, Example Inc"]Lorem ipsum dolor sit amet.[/testimonial]</pre>
+			<h3>Button</h3>
+			<p>The default button color is the link color. You can set the attribute "style" to "green", "grey" or "light" and the attribute "size" to "auto" so the button won't be stretched to fit the content.</p>
+			<pre>[button url="http://serifly.com" style="green" size="auto"]Label[/button]</pre>
+			<h3>Map</h3>
+			<p>To show a map on your site use the following code. Be as precise as possible with your address.</p>
+			<pre>[map location="New York"]</pre>
+			<h3>Info Box</h3>
+			<p>Wraps your content in a box. Can hold any content.</p>
+			<pre>[info_box][/info_box]</pre>
+			<h3>Video</h3>
+			<p>To embed a video on your site use the following code. Either Youtube or Vimeo video url.</p>
+			<pre>[video url=""]</pre>
+			<h3>Columns</h3>
+			<p>You can specify up to four columns next to each other. To do so use the appropriate size. The last column of a row must always have <strong>_last</strong> attached to its tag.</p>
+			<pre>[one_half][/one_half]
+[one_third][/one_third]
+[two_third][/two_third]
+[one_fourth][/one_fourth]
+[three_fourth][/three_fourth]</pre>
+			<h3>Tabs</h3>
+			<p>To create a tabbed navigation and box use the following. You can put almost anthing inside the tab content (i.e. columns).</p>
+			<pre>
+[tab_wrapper]
+	[tab label="Tab 1 Label"]
+		Content Tab 1
+	[/tab]
+	[tab label="Tab 2 Label"]
+		Content Tab 2
+	[/tab]
+[/tab_wrapper]</pre>
+			<h3>Pricing Plans</h3>
+			<p>Using the column layout you can easily set up pricing tables. Please have a look at the demo content included with this theme to learn more.</p>
+			<p>Use the column names "one_half" for two plans, "one_third" for three and "one_fourth" for four plans.</p>
+			<pre>[pricing_plans]
+	[one_half]
+		[pricing_plans_header title="" description="" price="" term=""]
+		[pricing_plans_features]
+		&lt;ul&gt;
+			&lt;li&gt;HTML or visually created list&lt;/li&gt;
+		&lt;/ul&gt;
+		[/pricing_plans_features]
+		[pricing_plans_details]
+		&lt;ul&gt;
+			&lt;li&gt;HTML or visually created list&lt;/li&gt;
+		&lt;/ul&gt;
+		[/pricing_plans_details]
+		[pricing_plans_order][button url="" style=""][/button][/pricing_plans_order]
+	[/one_half]
+	[one_half_last]
+		[pricing_plans_header title="" description="" price="" term=""]
+		[pricing_plans_features]
+		&lt;ul&gt;
+			&lt;li&gt;HTML or visually created list&lt;/li&gt;
+		&lt;/ul&gt;
+		[/pricing_plans_features]
+		[pricing_plans_details]
+		&lt;ul&gt;
+			&lt;li&gt;HTML or visually created list&lt;/li&gt;
+		&lt;/ul&gt;
+		[/pricing_plans_details]
+		[pricing_plans_order][button url="" style=""][/button][/pricing_plans_order]
+	[/one_half_last]
+[/pricing_plans]</pre>
+			<h3>Tables</h3>
+			<p>If you want to use a regular table use following shortcodes.</p>
+			<pre>[table]
+	[table_title]Table[/table_title]
+	[table_row]
+		[table_cell_header]Plan Name[/table_cell_header]
+	[/table_row]
+	[table_row]
+		[table_cell]Table Cell[/table_cell]
+	[/table_row]
+	[table_row]
+		[table_cell_price label="Price Label"]Price[/table_cell_price]
+	[/table_row]
+	[table_row]
+		[table_cell][button link=""]Button[/button][/table_cell]
+	[/table_row]
+[/table]</pre>
+			<h2 id="credits"><a href="#table-of-contents">Back to Top &uarr;</a>Credits</h2>
+			<p class="heading">This theme was created using the following third party resources.</p>
+			<ul>
+				<li>jQuery 1.8.2 &middot; <a href="http://jquery.com">http://jquery.com</a></li>
+				<li>Maven Pro &middot; <a href="https://www.google.com/webfonts/specimen/Maven+Pro">https://www.google.com/webfonts/specimen/Maven+Pro</a></li>
+				<li>Lato &middot; <a href="https://www.google.com/webfonts/specimen/Lato">https://www.google.com/webfonts/specimen/Lato</a></li>
+				<li>Pixabay &middot; <a href="http://pixabay.com/">http://pixabay.com/</a></li>
+			</ul>
+			<p class="heading">Anything else was custom created or doesn't require any attribution. If I missed to mention your resource please get in touch as soon as possible. I most likely just forgot it or your resource was published as public domain content.</p>
+			<div class="footer">
+				<p>Once again, thank you so much for purchasing this theme. As stated above, feel free to contact the support if you have any questions related to this theme. No guarantees but I'll do my best to assist.</p>
+				<p><a class="right" href="#table-of-contents">Back to Top &uarr;</a>Theme & Documentation by <a href="http://serifly.com">Serifly</a></p>
+			</div>
+		</div>
+	</body>
+</html>

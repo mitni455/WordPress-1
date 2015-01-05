@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------
+   Release notes for inFocus
+----------------------------------------------------------------------------
+
+   Theme Name: inFocus
+
+   Version: 3.6
+
+   by WebTreats
+   http://mysitemyway.com
+
+   Please direct all comments and bugs here:
+   http://mysitemyway.com/support/
+
+
+----------------------------------------------------------------------------
+  Change log
+----------------------------------------------------------------------------
+
+http://mysitemyway.com/docs/index.php/InFocus_Changelog
